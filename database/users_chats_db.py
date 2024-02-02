@@ -213,3 +213,4 @@ class Database:
         await self.users.update_one({"id": user_id}, {"$set": user_data}, upsert=True)
         
 db = Database(DATABASE_URI, DATABASE_NAME)
+db2 = Database(DATABASE_URI2, DATABASE_NAME)
