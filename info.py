@@ -26,7 +26,7 @@ NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.j
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/85d361ab4cb6511006022.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/86b7b7e2aa7e38f328902.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a471e242b8.jpg'))
-CODE = (environ.get('CODE', 'https://t.me/cinemaduniyasupport/31'))
+CODE = (environ.get('CODE', 'https://graph.org/file/43c2d5bbf1dbce279fa06.jpg'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'instantlinks.in'))
