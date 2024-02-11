@@ -203,8 +203,9 @@ class Database:
         return await self.update_one(
             {"id": user_id}, {"$set": {"expiry_time": None}}
         )
+    
 
-     async def check_trial_status(self, user_id):
+    async def check_trial_status(self, user_id):
         user_data = await self.get_user(user_id)
         if user_data:
             return user_data.get("has_free_trial", False)
