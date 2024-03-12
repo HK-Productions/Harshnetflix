@@ -29,9 +29,9 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a
 CODE = (environ.get('CODE', 'https://t.me/cinemaduniyasupport/31'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'instantlinks.in'))
-STREAM_API = (environ.get('STREAM_API', 'adc3dce8c3d9f968ab0909ba04c6bd0ef1f83d1a'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/cinemaduniyasupport/24'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'paisakamalo.in'))
+STREAM_API = (environ.get('STREAM_API', 'c7854500af931db84452437d4e10f234667fcbaa'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/cinemaduniyasupport/27'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6977859652 2038847704').split()]
@@ -57,22 +57,22 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'instantlinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'adc3dce8c3d9f968ab0909ba04c6bd0ef1f83d1a')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'paisakamalo.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c7854500af931db84452437d4e10f234667fcbaa')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/rockersallmoviesearch')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Cz_Movie_Request')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/cinemaduniyachannel')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/cinemaduniyasupport/24')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/cinemaduniyasupport/27')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ComfyTraderz')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002126792745'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'cinemaduniyaupport')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "False")), False)
+IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
